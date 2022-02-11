@@ -10,12 +10,11 @@ xdirection = right -left;
 xVector = xSpeed * xdirection;
 yvector = yvector + grv;
  
-x = x + xVector;
 
-y = y + yvector;
+
 
 //bounds
-if (place_meeting(x + xVector,y,owall))
+if (place_meeting(x+xVector, y,owall))
 {
 while (!place_meeting(x + xdirection , y , owall))
  {
@@ -27,9 +26,16 @@ xVector = 0;
 }
 x = x + xVector;
 
-if place_meeting(x + xVector , y+sign(yvector), owall)
-
-while (!place_meeting(x + xdirection , y , owall))
+if place_meeting(x + xVector , y+yvector, owall)
+{
+while (!place_meeting(x, y+sign(yvector) , owall))
 {
  y = y+sign(yvector)
  }
+ yvector=0
+}
+y=y+yvector
+
+
+
+
