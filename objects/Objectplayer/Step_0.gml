@@ -4,7 +4,7 @@
 //if key is pressed then right = 1,  otherwise right = 0
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
-
+jump = keyboard_check(vk_space);
 xdirection = right -left;
 
 xVector = xSpeed * xdirection;
@@ -26,7 +26,7 @@ xVector = 0;
 }
 x = x + xVector;
 
-if place_meeting(x + xVector , y+yvector, owall)
+if place_meeting(x , y+yvector, owall)
 {
 while (!place_meeting(x, y+sign(yvector) , owall))
 {
@@ -36,6 +36,7 @@ while (!place_meeting(x, y+sign(yvector) , owall))
 }
 y=y+yvector
 
-
-
-
+if (place_meeting(x,y+1, owall) and (jump) )
+{
+yvector = jumpforce
+}
