@@ -40,3 +40,7 @@ if (place_meeting(x,y+1, owall) and (jump) )
 {
 yvector = jumpforce
 }
+if (y >= room_height)
+{
+room_restart()
+}
