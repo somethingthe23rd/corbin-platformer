@@ -12,6 +12,6 @@ xVector = xSpeed * xdirection
 
 //gravity
 grv = .1;
-jumpforce = -5;
+jumpforce = -5.5;
 
 yvector = 0 ;

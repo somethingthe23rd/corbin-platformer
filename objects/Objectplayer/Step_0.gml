@@ -4,7 +4,7 @@
 //if key is pressed then right = 1,  otherwise right = 0
 right = keyboard_check(vk_right);
 left = keyboard_check(vk_left);
-jump = keyboard_check(vk_space);
+jump = keyboard_check(vk_up);
 xdirection = right -left;
 
 xVector = xSpeed * xdirection;
