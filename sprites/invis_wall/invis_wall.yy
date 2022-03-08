@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 3,
+  "bbox_right": 0,
   "bbox_top": 0,
-  "bbox_bottom": 3,
+  "bbox_bottom": 0,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 4,
-  "height": 4,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"eb50be58-ec67-4525-80ab-917197270352","path":"sprites/bullet/bullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"eb50be58-ec67-4525-80ab-917197270352","path":"sprites/bullet/bullet.yy",},"LayerId":{"name":"84e72db2-144e-4b29-bf6b-6fd5ac8e9312","path":"sprites/bullet/bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"bullet","path":"sprites/bullet/bullet.yy",},"resourceVersion":"1.0","name":"eb50be58-ec67-4525-80ab-917197270352","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1987e873-120d-4406-bf81-cfb9c7f82469","path":"sprites/invis_wall/invis_wall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1987e873-120d-4406-bf81-cfb9c7f82469","path":"sprites/invis_wall/invis_wall.yy",},"LayerId":{"name":"a3c52d4b-447b-4a17-9364-a01db4c76198","path":"sprites/invis_wall/invis_wall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"invis_wall","path":"sprites/invis_wall/invis_wall.yy",},"resourceVersion":"1.0","name":"1987e873-120d-4406-bf81-cfb9c7f82469","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"bullet","path":"sprites/bullet/bullet.yy",},
+    "spriteId": {"name":"invis_wall","path":"sprites/invis_wall/invis_wall.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 999.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f3452061-4a0a-442f-a8ac-30412e20bfb8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eb50be58-ec67-4525-80ab-917197270352","path":"sprites/bullet/bullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"09d90846-9700-4403-ab6b-032d50b1b827","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1987e873-120d-4406-bf81-cfb9c7f82469","path":"sprites/invis_wall/invis_wall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"bullet","path":"sprites/bullet/bullet.yy",},
+    "parent": {"name":"invis_wall","path":"sprites/invis_wall/invis_wall.yy",},
     "resourceVersion": "1.3",
-    "name": "bullet",
+    "name": "invis_wall",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"84e72db2-144e-4b29-bf6b-6fd5ac8e9312","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a3c52d4b-447b-4a17-9364-a01db4c76198","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bullet",
+  "name": "invis_wall",
   "tags": [],
   "resourceType": "GMSprite",
 }

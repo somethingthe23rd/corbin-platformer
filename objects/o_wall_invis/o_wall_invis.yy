@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "sfantomwall",
-    "path": "sprites/sfantomwall/sfantomwall.yy",
+    "name": "invis_wall",
+    "path": "sprites/invis_wall/invis_wall.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ofantomwall",
+  "name": "o_wall_invis",
   "tags": [],
   "resourceType": "GMObject",
 }

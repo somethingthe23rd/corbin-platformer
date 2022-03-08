@@ -1,7 +1,9 @@
 {
   "resources": [
     {"id":{"name":"splayer","path":"sprites/splayer/splayer.yy",},"order":2,},
+    {"id":{"name":"invis_wall","path":"sprites/invis_wall/invis_wall.yy",},"order":8,},
     {"id":{"name":"swall","path":"sprites/swall/swall.yy",},"order":1,},
+    {"id":{"name":"o_wall_invis","path":"objects/o_wall_invis/o_wall_invis.yy",},"order":3,},
     {"id":{"name":"stateplayerwalking","path":"scripts/stateplayerwalking/stateplayerwalking.yy",},"order":3,},
     {"id":{"name":"checkinputs","path":"scripts/checkinputs/checkinputs.yy",},"order":1,},
     {"id":{"name":"enemyhurt","path":"scripts/enemyhurt/enemyhurt.yy",},"order":2,},
@@ -10,7 +12,9 @@
     {"id":{"name":"checkcollision","path":"scripts/checkcollision/checkcollision.yy",},"order":0,},
     {"id":{"name":"bullet","path":"sprites/bullet/bullet.yy",},"order":4,},
     {"id":{"name":"ofantomwall","path":"objects/ofantomwall/ofantomwall.yy",},"order":2,},
+    {"id":{"name":"obullet","path":"objects/obullet/obullet.yy",},"order":4,},
     {"id":{"name":"owall","path":"objects/owall/owall.yy",},"order":1,},
+    {"id":{"name":"sfantomwall","path":"sprites/sfantomwall/sfantomwall.yy",},"order":7,},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},"order":5,},
     {"id":{"name":"lava","path":"sprites/lava/lava.yy",},"order":6,},
     {"id":{"name":"stateplayerjumping","path":"scripts/stateplayerjumping/stateplayerjumping.yy",},"order":4,},
