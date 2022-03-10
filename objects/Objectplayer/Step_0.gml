@@ -14,9 +14,20 @@ yvector = yvector + grv;
 
 
 //bounds
-if (place_meeting(x+xVector, y,owall))
+if (place_meeting(x+xVector, y,owall  ))
 {
-while (!place_meeting(x + xdirection , y , owall))
+while (!place_meeting(x + xdirection , y ,owall ))
+ {
+ //move 1 pixel
+ x = x + xdirection
+ }
+//x vector wont move 
+xVector = 0;
+}
+
+if (place_meeting(x+xVector, y,o_wall_invis  ))
+{
+while (!place_meeting(x + xdirection , y ,o_wall_invis ))
  {
  //move 1 pixel
  x = x + xdirection
@@ -34,12 +45,27 @@ while (!place_meeting(x, y+sign(yvector) , owall))
  }
  yvector=0
 }
+
+if place_meeting(x , y+yvector, o_wall_invis)
+{
+while (!place_meeting(x, y+sign(yvector) , o_wall_invis))
+{
+ y = y+sign(yvector)
+ }
+ yvector=0
+}
 y=y+yvector
 
 if (place_meeting(x,y+1, owall) and (jump) )
 {
 yvector = jumpforce
 }
+if (place_meeting(x,y+1, o_wall_invis) and (jump) )
+{
+yvector = jumpforce
+}
+
+
 if (y >= room_height)
 {
 room_restart()
