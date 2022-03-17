@@ -4,7 +4,7 @@
     "path": "sprites/invis_wall/invis_wall.yy",
   },
   "solid": true,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

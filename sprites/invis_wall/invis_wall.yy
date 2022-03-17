@@ -32,7 +32,7 @@
     "spriteId": {"name":"invis_wall","path":"sprites/invis_wall/invis_wall.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 999.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

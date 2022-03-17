@@ -7,8 +7,6 @@
     {"id":{"name":"stateplayerwalking","path":"scripts/stateplayerwalking/stateplayerwalking.yy",},"order":3,},
     {"id":{"name":"checkinputs","path":"scripts/checkinputs/checkinputs.yy",},"order":1,},
     {"id":{"name":"enemyhurt","path":"scripts/enemyhurt/enemyhurt.yy",},"order":2,},
-    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":14,},
-    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":3,},
     {"id":{"name":"checkcollision","path":"scripts/checkcollision/checkcollision.yy",},"order":0,},
     {"id":{"name":"bullet","path":"sprites/bullet/bullet.yy",},"order":4,},
     {"id":{"name":"ofantomwall","path":"objects/ofantomwall/ofantomwall.yy",},"order":2,},

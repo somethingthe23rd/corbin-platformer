@@ -56,7 +56,7 @@
     "spriteId": {"name":"lava","path":"sprites/lava/lava.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 999.0,
+    "playbackSpeed": 1.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
