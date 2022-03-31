@@ -32,7 +32,7 @@
     "spriteId": {"name":"swall","path":"sprites/swall/swall.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 888.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
