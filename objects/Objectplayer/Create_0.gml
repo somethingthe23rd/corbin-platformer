@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+//
 //xSpeed is how many pixels the player will move each frame
 xSpeed =6//9
 
@@ -14,7 +14,7 @@ xVector = xSpeed * xdirection
 grv = .3;
 jumpforce = -8.8;
 
-yvector = 0 ;
+yvector = 0;
 
 
 
