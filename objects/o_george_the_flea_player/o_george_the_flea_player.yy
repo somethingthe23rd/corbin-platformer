@@ -39,7 +39,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Objectplayer",
+  "name": "o_george_the_flea_player",
   "tags": [],
   "resourceType": "GMObject",
 }
