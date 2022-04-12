@@ -12,6 +12,7 @@
     {"id":{"name":"ofantomwall","path":"objects/ofantomwall/ofantomwall.yy",},"order":2,},
     {"id":{"name":"o_billy_the_bullet","path":"objects/o_billy_the_bullet/o_billy_the_bullet.yy",},"order":4,},
     {"id":{"name":"owall","path":"objects/owall/owall.yy",},"order":1,},
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":9,},
     {"id":{"name":"sfantomwall","path":"sprites/sfantomwall/sfantomwall.yy",},"order":7,},
     {"id":{"name":"enemy","path":"sprites/enemy/enemy.yy",},"order":5,},
     {"id":{"name":"lava","path":"sprites/lava/lava.yy",},"order":6,},
