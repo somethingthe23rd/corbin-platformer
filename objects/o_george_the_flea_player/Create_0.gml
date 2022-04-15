@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //
 //xSpeed is how many pixels the player will move each frame
-xSpeed =6//9
+xSpeed =99999
 
 //what dirrction the player is moving. 1= to the right -1 = to the left 0 = not moving
 xdirection =0;
