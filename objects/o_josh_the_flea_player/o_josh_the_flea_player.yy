@@ -1,13 +1,13 @@
 {
   "spriteId": {
-    "name": "splayer2",
-    "path": "sprites/splayer2/splayer2.yy",
+    "name": "splayer",
+    "path": "sprites/splayer/splayer.yy",
   },
   "solid": true,
   "visible": true,
   "spriteMaskId": {
-    "name": "splayer2",
-    "path": "sprites/splayer2/splayer2.yy",
+    "name": "splayer",
+    "path": "sprites/splayer/splayer.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -39,7 +39,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_george_the_flea_player",
+  "name": "o_josh_the_flea_player",
   "tags": [],
   "resourceType": "GMObject",
 }
